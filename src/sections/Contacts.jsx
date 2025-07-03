@@ -87,7 +87,7 @@ const Contacts = () => {
     return (
         <section className={"c-space my-20"} id={"contact"}>
          <div className={"relative min-h-screen flex items-center justify-center flex-col"}>
-             <img src={"/assets/terminal.png"} alt={"terminal background"} className={"absolute inset-0 min-h-screen"}/>
+             <img src={"/assets/terminal.png"} alt={"terminal background"} className={"absolute inset-0 min-h-screen sm:hidden"}/>
              <div className={"contact-container"}>
                  <h3 className={"head-text mt-3 space-y-7"}>Let&apos;s get in touch!</h3>
                  <p className={"text-lg text-white-600 mt-3"}>Whether you are looking to build a new website,

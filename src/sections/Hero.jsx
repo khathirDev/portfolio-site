@@ -141,10 +141,9 @@ const Hero = () => {
   useEffect(() => {
     const typewriter = new Typewriter(typewriterRef.current, {
       strings: [
-        'Full-Stack Software Developer',
-        'Sui Blockchain Developer',
-        'Techinical Consultant',
-        'Creating Digital Experiences',
+        'Full-Stack Developer',
+        'Building on Sui Blockchain',
+        'AI and ML Support',
       ],
       autoStart: true,
       loop: true,

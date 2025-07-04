@@ -76,7 +76,7 @@ export const myProjects = [
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: '/assets/spotlight2.webp',
         tags: [
             {
                 id: 1,

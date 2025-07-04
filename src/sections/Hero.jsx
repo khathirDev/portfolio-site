@@ -142,7 +142,7 @@ const Hero = () => {
     const typewriter = new Typewriter(typewriterRef.current, {
       strings: [
         'Full-Stack Developer',
-        'Building on Sui Blockchain',
+        'Web3 Builder',
         'AI and ML Support',
       ],
       autoStart: true,

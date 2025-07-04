@@ -24,7 +24,7 @@ const Footer = () => {
 
                 <div className={"social-icon"}>
                     <a href='https://instagram.com/developedBykhathir'>
-                    <img src={"/assets/instagram.svg"} alt={"instagram"} className={"w-1/2 h-1/2"} loading="lazy"/>
+                    <img src={"/assets/instagram.svg"} alt={"instagram"} className={"w-1/2 h-1/2 ml-1.5"} loading="lazy"/>
                     </a>
                 </div>
             </div>

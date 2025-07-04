@@ -70,7 +70,7 @@ export const myProjects = [
             'With Writhub, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
         href: 'https://writhub.vercel.app/',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/project-logo2.webp',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -86,17 +86,17 @@ export const myProjects = [
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                path: 'assets/tailwindcss.webp',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: '/assets/typescript.webp',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/framer.webp',
             },
         ],
     },

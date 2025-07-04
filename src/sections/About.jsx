@@ -21,8 +21,8 @@ const About = () => {
             <div className={"grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full"}>
                 <div className={"col-span-1 xl:row-span-3"}>
                     <div className={"grid-container"}>
-                        <img src={"/assets/grid1.png"} alt={"grid-1"}
-                             className={"w-full sm:h-[276px] h-fit object-contain"}/>
+                        <img src={"/assets/grid1.webp"} alt={"grid-1"}
+                             className={"w-full sm:h-[276px] h-fit object-contain"} loading="lazy"/>
                         <div className={"grid-headtext"}>
                             <p>Hi, I&apos;m Khathir</p>
                             <p className={"grid-subtext"}>
@@ -36,7 +36,7 @@ const About = () => {
 
                 <div className={"col-span-1 xl:row-span-3"}>
                     <div className={"grid-container"}>
-                        <img src={"/assets/tecj.png"} alt={"grid-2"} className={"w-full sm:h-[276px] object-contain"}/>
+                        <img src={"/assets/tecj.webp"} alt={"grid-2"} className={"w-full sm:h-[276px] object-contain"} loading="lazy"/>
                         <div>
                             <p className={"grid-headtext"}>What I Build With</p>
                             <p className={"grid-subtext"}>
@@ -86,7 +86,7 @@ const About = () => {
 
                 <div className={'xl:col-span-2 xl:row-span-3'}>
                     <div className={"grid-container"}>
-                        <img className={"w-full sm:h-[266px] h-fit object-contain"} src={"/assets/grid3.png"} alt={"grid-3"}/>
+                        <img className={"w-full sm:h-[266px] h-fit object-contain"} src={"/assets/grid3.webp"} alt={"grid-3"} loading="lazy"/>
                         <div>
                             <p className={'grid-headtext'}>
                                 Passion That Builds
@@ -102,11 +102,11 @@ const About = () => {
 
                 <div className={"xl:col-span-1 xl:row-span-2"}>
                     <div className={"grid-container"}>
-                        <img src={'/assets/grid4.png'} alt={'grid-4'} className={'w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top'}/>
+                        <img src={'/assets/grid4.webp'} alt={'grid-4'} className={'w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top'} loading="lazy"/>
                         <div className={'space-y-2'}>
                             <p className={'grid-subtext text-center '}>Contact Me</p>
                             <div className={'copy-container'} onClick={handleCopy}>
-                                <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt={'copy'}/>
+                                <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt={'copy'} loading="lazy"/>
                                 <p className={'lg:text-1.6xl  md:text-xl font-medium text-gray_gradient text-white'}>
                                     moyokhathir@gmail.com
                                 </p>

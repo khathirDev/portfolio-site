@@ -107,7 +107,7 @@ export const myProjects = [
     subdesc:
         'By leveraging Sui Move smart contracts, ChainVote ensures every vote is verifiable and tamper-proof, while a modern React frontend delivers a smooth and accessible user experience. It’s ideal for DAOs, communities, and any organization that values integrity.',
     href: 'https://chainvote-drab.vercel.app/',
-    texture: '/textures/project/project3.mp4',
+    texture: '/textures/project/chainvote.mp4',
     logo: '/assets/chainvote.svg',
     logoStyle: {
         backgroundColor: '#0A1328',

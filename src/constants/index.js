@@ -100,6 +100,50 @@ export const myProjects = [
             },
         ],
     },
+
+    {
+    title: 'ChainVote - On-Chain Voting for the Future',
+    desc: 'ChainVote is a decentralized voting platform that brings trust, transparency, and verifiability to decision-making. Built on the Sui blockchain, it enables secure proposal creation, admin-managed governance, and seamless wallet-based voting.',
+    subdesc:
+        'By leveraging Sui Move smart contracts, ChainVote ensures every vote is verifiable and tamper-proof, while a modern React frontend delivers a smooth and accessible user experience. It’s ideal for DAOs, communities, and any organization that values integrity.',
+    href: 'https://chainvote-drab.vercel.app/',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/chainvote.svg',
+    logoStyle: {
+        backgroundColor: '#0A1328',
+        border: '0.2px solid #1F2D50',
+        boxShadow: '0px 0px 60px 0px #3C88F04D',
+    },
+    spotlight: '/assets/spotlight2.webp',
+    tags: [
+        {
+            id: 1,
+            name: 'React.js',
+            path: '/assets/react.svg',
+        },
+        {
+            id: 2,
+            name: 'TailwindCSS',
+            path: '/assets/tailwindcss.webp',
+        },
+        {
+            id: 3,
+            name: 'TypeScript',
+            path: '/assets/typescript.webp',
+        },
+        {
+            id: 4,
+            name: 'Sui Move',
+            path: '/assets/sui.svg',
+        },
+        {
+            id: 5,
+            name: 'Framer Motion',
+            path: '/assets/framer.webp',
+        },
+    ],
+}
+
     
 ];
 

@@ -142,7 +142,51 @@ export const myProjects = [
             path: '/assets/framer.webp',
         },
     ],
-}
+},
+
+{
+    title: 'Shark Coin - Meme Token with a Bite',
+    desc: 'Shark Coin is a meme-powered token ecosystem built on the Sui blockchain. With a secure Move-based smart contract and a slick frontend dApp, Shark Coin makes crypto fun, fast, and user-friendly.',
+    subdesc:
+        'Dive into the memeverse with Shark Coin — combining blockchain solidity with a playful UI built using React, Tailwind CSS, and the Sui Wallet Kit. Everything is open source, modular, and made for Web3 degens and newcomers alike.',
+    href: 'https://sharkofi.vercel.app/',
+    texture: '/textures/project/shark.mp4',
+    logo: '/assets/shark.svg',
+    logoStyle: {
+        backgroundColor: '#0A1E25',
+        border: '0.2px solid #124F5C',
+        boxShadow: '0px 0px 60px 0px #0ED4FF4D',
+    },
+    spotlight: '/assets/spotlight2.webp',
+    tags: [
+        {
+            id: 1,
+            name: 'React.js',
+            path: '/assets/react.svg',
+        },
+        {
+            id: 2,
+            name: 'TailwindCSS',
+            path: '/assets/tailwindcss.webp',
+        },
+        {
+            id: 3,
+            name: 'TypeScript',
+            path: '/assets/typescript.webp',
+        },
+        {
+            id: 4,
+            name: 'Sui Move',
+            path: '/assets/sui.svg',
+        },
+        {
+            id: 5,
+            name: 'Framer Motion',
+            path: '/assets/framer.webp',
+        },
+    ],
+},
+
 
     
 ];
